@@ -35,7 +35,30 @@
             <h2>Atrativos e Características Principais </h2>
             <p> O parque é famoso por oferecer aos visitantes uma experiência única em meio à natureza, destacando-se
                 por três atrações principais: os Arenitos, as Furnas e a Lagoa Dourada. Os Arenitos são formações
-                rochosas esculpidas pela ação do tempo, onde os visitantes podem identificar figuras icônicas como a
+                rochosas esculpidas peconst botoesCurtir = document.querySelectorAll(".curtir");
+
+botoesCurtir.forEach(function(botaoCurtir) {
+
+    let curtiu = false;
+
+    botaoCurtir.addEventListener("click", curtir);
+
+    function curtir() {
+
+        const contador = botaoCurtir.querySelector("span");
+
+        <button class="='curtir">
+           ❤️curtir <span>0</span>
+             </button>
+        if (curtiu === false) {
+            contador.textContent++;
+            curtiu = true;
+        } else {
+            contador.textContent--;
+            curtiu = false;
+        }
+    }
+});la ação do tempo, onde os visitantes podem identificar figuras icônicas como a
                 "Taça" e o "Camelo". Já as Furnas impressionam por serem grandes poços de desabamento subterrâneos com
                 paredões verticais e água no fundo, enquanto a Lagoa Dourada encanta pelo efeito visual de suas águas
                 cristalinas ao refletirem a luz do sol. O local conta com trilhas estruturadas, arvorismo e passeios
