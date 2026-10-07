@@ -12,15 +12,15 @@
 
 body {
 
-    background-color: rgb(23, 23, 238);
-    color: rgb(230, 33, 33);
+    background-color: rgb(108, 238, 255);
+    color: rgb(192, 71, 71);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: gold;
-    color: antiquewhite;
+    background-color: rgb(98, 235, 223);
+    color: rgb(201, 96, 228);
     text-align: center;
     padding: 30px;
 }
@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-    color: #08bdc4;
+    color: #1a6568;
     line-height: 1.6;
 }
 
@@ -41,7 +41,7 @@ main {
 }
 
 button {
-    background-color: rgb(26, 13, 201);
+    background-color: rgb(71, 119, 223);
     margin: 20px;
     border-radius: 12px;
 }
@@ -57,6 +57,64 @@ button:hover {
 .curtir {
     text-align: center;
     font-size: 14px;
-    color: rgb(88, 77, 243);
+    color: rgb(121, 114, 231);
     margin-top: 8px;
+}
+
+section {
+    background-color: var(--cor-superficie);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px
+}
+
+img {
+    width: 100;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: var(--cor-legenda);
+    margin-top: 8px;
+}
+
+ 
+
+.card {
+    background-color:var(--cor-card);
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid var(--cor-principal);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor-houver);
+
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
 }
