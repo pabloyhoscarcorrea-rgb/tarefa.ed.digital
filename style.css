@@ -118,3 +118,16 @@ button:hover {
     display: block;
     width: fit-content;
 }
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-curiosídades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
