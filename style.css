@@ -128,7 +128,7 @@ button:hover {
 }
 .galeria{
     display:flex;
-    gap:20 px;
+    gap:20px;
     flex-wrap: wrap;
     justify-content: center;
 }
