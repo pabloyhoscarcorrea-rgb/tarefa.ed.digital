@@ -10,6 +10,14 @@
     --cor-clara: #161515;
     --cor-rodape:#236d33;
 }
+.tema-escuro {
+    --cor-fundo:black;
+    --cor-texto:black;
+    --cor-principal:black;
+    --cor-superficie:black;
+    --cor-card:black;
+
+}
 
 body {
     background-color: var(--cor-fundo);
@@ -147,4 +155,3 @@ flex-wrap: wrap;
     border-radius: 50%;
     font-size: 22px;
 }
-                                    ''''
